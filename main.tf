@@ -13,6 +13,8 @@ terraform {
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
+  access_key ="ASIAWP2B77K47IMXFZEV"
+  secret_key ="yKIwo0RrkctpPT693y0r8B/EmuT3lsgAmSyYkNQU"
 }
 
 data "aws_ami" "ubuntu" {
